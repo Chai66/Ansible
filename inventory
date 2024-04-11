@@ -13,7 +13,7 @@
 192.87.56.7
 192.87.56.8
 
-[roboshop;children]
+[roboshop:children]
 web
 cart 
 catalogue
