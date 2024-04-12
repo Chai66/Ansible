@@ -9,7 +9,7 @@
     - GIT
     - Linux
     - Ansible
-    Experience:  # Experience is map type. It contains key value pair
+    Experience:  # Experience is map type. It contains key value pair and prineted in braces in command
       Devops: 6
       AWS: 5
       Docker: 4
