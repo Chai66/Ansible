@@ -30,3 +30,5 @@
   - name: print boolean
     ansible.bulitin.debug:
       msg: "Is he Trainer: {{Trainer}}"
+
+
