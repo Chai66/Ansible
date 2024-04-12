@@ -1,13 +1,9 @@
-# Task level variables
 - name: variables from PLAY level
   hosts: localhost
-  vars:
-    Course: "DevOps"
-    Trainer: "Sivakumar"
-    Duration: "110HRS"
+  vars_files:
+  - variables.yaml
+
   tasks:
   - name: check variables
-    vars: # task level and is called inheritence
-      Course: "Devops with AWS"
     ansible.builtin.debug:
       msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
