@@ -4,3 +4,4 @@
   - name: check variables
     ansible.builtin.debug:
       msg: "Hi {{PERSON}}, good {{WISHES}}" # need to pass arguments through commands
+      # ansible-playbook -i inventory.ini -e ansible_user=centos -e ansible_password=DevOps321 -e "PERSON=chaitanya" -e "WISHES=morning" 09-vars-from-args.yaml
