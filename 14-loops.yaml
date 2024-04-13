@@ -4,8 +4,8 @@
   tasks:
   - name: print persons
     ansible.builtin.package:
-      name: "Hello {{item}}" # item is a default keyword
-      state: present
+      name: "{{item}}"
+      state: present # item is a default keyword
     loop:
     - git
     - mysql
